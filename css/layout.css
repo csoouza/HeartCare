@@ -1,0 +1,96 @@
+/* CSS Document */
+
+#container{
+	width:1024px;
+	height: 670px;
+	background: url(faux-bg.gif) repeat-y 0 0;
+	text-align:left;
+	margin:0 auto;
+	background-color:#EEE;
+	
+	}
+#rodape{
+	margin:0 auto;
+	width:1024px;
+	height:15px;
+	background-color: #FFFFCC;
+	text-align:right;
+	}	
+/*background-color: #FEDAD8; vermelho */
+html,body{
+	background-color: #FFFFCC;
+	margin:5px;
+	height:98%;
+	}
+table{
+	margin-left:15px;
+	}
+#descricao{
+	width: 520px ;
+	height: 470px ;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 10px 0px 0px 10px; /*topo direita baixo esquerdo */
+	
+	
+	
+	overflow: auto;
+	}
+
+#coracao{
+	width: 470px ;
+	height: 470px ;
+	background-color:#666666;
+	float: right;
+	margin: 10px ; /*topo direita baixo esquerdo */
+	position: relative;
+ z-index: 0;
+	}
+
+#arteriolas{
+	width: 370px ;
+	height: 170px ;
+	background-color:#ffff00;
+	float: left;
+	margin: 10px 0px 10px 10px; /*topo direita baixo esquerdo */
+	text-align:center;
+	}
+#botoes{
+font-weight: bold;
+ border: 2px solid #930000;
+ background-color:#FFDFDF;
+ padding: 6px;
+ width: 70px;
+ height:90px;
+ position: absolute;
+ top:350px;
+ z-index: 3;
+ font-size: 14px;
+ left:380px;
+	}
+#veias{
+	width: 370px ;
+	height: 170px ;
+	background-color:#00ffff;
+	float: left;
+    margin-top:10px 0px 10px 0px; /*topo direita baixo esquerdo */
+	text-align:center;
+	}
+
+#menu{
+	width: 263px ;
+	height: 170px ;
+	background-color:#666666;
+	float: left;
+    margin:0px 10px 10px 0px; /*topo direita baixo esquerdo */
+	text-align:center;
+	}
+
+#drogas{
+	width:1004px;
+	height: 110px;
+	background-color:#eeeeee;
+	float: left;
+	margin: 0px 0px 0px 10px;
+	}
+	
